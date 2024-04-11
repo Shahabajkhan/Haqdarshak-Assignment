@@ -1,0 +1,12 @@
+.parent {
+    margin: 0;
+    padding: 0;
+    background-color: #4F285E;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 95vh; 
+  
+  }
+
+  
