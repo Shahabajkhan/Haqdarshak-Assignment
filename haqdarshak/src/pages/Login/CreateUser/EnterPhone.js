@@ -3,6 +3,7 @@ import '../Language.css'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
+import arrowImage from "../../../Images/Arrow.png";
 
 const ChoosePhone = (props) =>{
   const { state, district, pincode } = useParams();
@@ -14,7 +15,11 @@ const ChoosePhone = (props) =>{
 return(
   <div>
     <div className='textbox'>
-      <button className='btn-lng'>arrow</button>
+    <Link to="/LocationChoose">
+          <button className="btn-lng">
+            <img src={arrowImage} alt="Arrow" className="btn-with-logo" />
+          </button>
+        </Link>
     <p>What is your<br/>mobile number?</p>
     </div>
     <div className='whiteBox'>

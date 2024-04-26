@@ -19,7 +19,7 @@ opacity: 0px;
 .whiteBox{
     margin: 0;
     height:600px;
-    width:100%;
+   width:100%;
     background-color: #F3F1EF;
     border-radius:32px;
     padding-top: 8px;
@@ -71,7 +71,7 @@ opacity: 0px;
 .dropdown-btn{
     display:flex;
     align-items: center;
-    width:300px;
+    width:75%;
 }
 .dropdown-btn hr {
     flex: 1; 
@@ -107,5 +107,29 @@ opacity: 0px;
     background-color:#E5E2DE ;
     
   }
+  .btn-location{
+    display:flex;
+    align-items: center;
+    width:73%;
+    height: Hug (56px)px;
+    padding: 16px 10px 16px 40px;
+    gap: 8px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 16px 0px #00000014;
+ margin-left: 20px;
+ 
+  }
+  .btn-location-text {
+    border: none;
+    background: none;
+    color: #110700;
+    cursor: pointer;
+    font-size: inherit;
+    width: 100%;
+}
+  
+  
   
   
